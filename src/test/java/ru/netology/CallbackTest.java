@@ -45,7 +45,7 @@ public class CallbackTest {
         driver.findElement(By.className("button_view_extra")).click();
         String text = driver.findElement(By.className("Success_successBlock__2L3Cw")).getText();
 
-        assertEquals("Ваша успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.",text.trim());
+        assertEquals("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.",text.trim());
     }
 
 }
